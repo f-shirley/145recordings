@@ -1,0 +1,162 @@
+body {
+
+    background-color: whitesmoke;
+    background-image: url(metal%20dull%20black.jpg);
+    background-size: 307px;
+    
+    font-family: serif;
+    
+    width: 100%;
+    height: 100%;
+    padding: 0px;
+    margin: 0px;
+    
+}
+
+.nav {
+    background-color: whitesmoke;
+    font-size: 17px;
+    color:white;
+    position: relative; /*this makes it move relative to the page */
+    top: -9px;
+    padding: 9px 0px 9px 0px; /*the order is top, left, bottom, right */
+/*
+    background-image: url(headergradient2.jpg);
+    background-repeat: repeat-x;
+    background-size: 15%;
+
+*/
+        opacity: 0.9;
+
+    
+    margin-bottom: -10px;
+
+    
+}
+
+.nav ul, li, a {
+    color:black;
+    padding-left: 10px;
+    padding-right: 10px;
+    text-decoration: underline;
+    font-weight: bold;
+    opacity: 1.0;   
+    
+}
+
+.nav li {
+    display: inline-block;
+}
+
+
+.nav ul, li, a:hover{
+    opacity: 0.8;
+}
+
+#menu1 {
+text-align: center;
+    text-decoration: none;
+    
+}
+
+
+.introheader {
+    padding: 2px 0px 30px 0px;
+
+}
+
+#title {
+    color: #6f94a8;
+    text-align: center;
+    opacity: 0.8;
+    text-shadow: 2px 2px 1px black;
+    font-size: 36pt;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+.logo img {
+    display: block;
+    margin: auto;
+     width:100%;
+    max-width:700px;
+/*    border: solid;*/
+    border-color: black;
+    
+}
+
+.logo img:hover{
+    opacity: 0.8;
+}
+
+.portrait{
+    display: block;
+    margin: auto;
+    width: 100%;
+    padding-top: 50px;
+    padding-bottom: 50px;
+}
+
+.intro {
+   width: 800px;
+    color:lightgrey;
+    display: inline-block;
+    position: relative;
+    padding-left: 30px;
+    padding-right: 30px; 
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 40px;
+    border: 5px solid black; 
+    box-shadow: 1px 1px 25px;
+    font-size: 17px;
+    
+}
+
+.intro{
+    text-align: center;
+    background: rgba(150,150,150,0.0)
+}
+
+h4 {
+    color: lightgrey;
+        text-shadow: 1px 1px 1px black;
+    opacity: 0.9;
+    text-align: center;
+    font-size: 28pt;
+    margin-top: 5px;
+    margin-bottom: 5px;
+}
+
+.homebody {
+/* text-align: center; */
+}
+
+.youtube link {
+}
+
+
+.services {
+    display: inline-block;
+    text-align: left;
+    
+}
+
+.verticalborder {
+    background-color: black;
+    width: 875px;
+    border-left: 5px solid lightgrey;
+    border-right: thick solid lightgrey;
+    padding: 0;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 0px;
+    
+    
+    
+}
+
+.verticalborder{
+    text-align: center;
+    display: block;
+}
