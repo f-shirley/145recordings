@@ -1,0 +1,173 @@
+html {
+    scroll-behavior: smooth;
+}
+
+html, body {padding:0px; margin:0px;width: 100%;overflow-x: hidden;}
+
+body {
+    font-family: "calibri", "00time new romans";
+}
+
+
+
+#header {
+    width: 100%;
+    background-color: /* #ABC8D3*/ black;
+    text-align: center;
+    display: block;
+    padding: 0px 0px 0px 0px;
+    color: white;
+    
+}
+#header img {
+    width: 500px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    
+   
+}
+
+#headertab{
+    text-align: center;
+    display: inline-block;
+    width: 100%;
+    font-size: 30px;
+    padding-top: 5px;
+    padding-bottom: 30px;
+}
+
+#header a {
+    width: 150px;
+    display: inline-block;
+    color: white;
+    padding-left: 25px;
+    padding-right: 25px;
+    text-decoration: none;
+    margin-left: auto;
+    margin-right: auto;
+    
+}
+
+
+
+#title {
+    display: inline-block;
+    max-width: 250px;
+    margin-left: auto;
+    font-size: 30px;
+}
+
+#footer {
+    background-color: black;
+    color: white;
+    text-align: center;
+    position: absolute;
+    width: 100%;
+    
+    padding-top: 50px;
+    padding-bottom: 50px;
+}
+
+#intro {
+    display: inline-block;
+    background-image: url(IMG_2817.JPG);
+    background-attachment: fixed;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-color: grey;
+    background-blend-mode: multiply;
+    width: 100%;
+    margin: 0px;
+    font-size: 2vw;
+    color: white;
+    height: 400px;
+    
+}
+
+@media screen and (orientation:portrait) {
+    /* Portrait styles */
+    #intro{
+        font-size: 20px;
+        text-align: left;
+    }
+    
+}
+
+#intro ul {
+    padding-top: 50px;
+    padding-left: 200px;
+    list-style-type: none;
+    display: inline-block;
+    
+}
+
+#intro img {
+    display: inline-block;
+    width: 512px;
+    vertical-align: bottom;
+    
+}
+#services{
+    display: inline-block;
+    background-color: gray;
+    background-image: url(IMG_2920.JPG);
+    background-blend-mode: multiply;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: 0;
+    margin: 0px;
+    width: 100%;
+    color: white;
+    text-align: center;
+}
+
+#services h1 {
+    font-size: 50px;
+}
+
+#services h2 {
+    font-size: 30px;
+}
+
+#portfolio {
+    text-align: center;
+    background-color: white;
+    color: black;
+    width: 100%;
+}
+
+#portfolio h1 {
+    font-size: 50px;
+}
+
+#contact {
+    text-align: center;
+    width: 100%;
+    padding-bottom: 50px;
+}
+
+#contact h2 {
+    margin: 0px;
+}
+#fb {
+    float: inherit;
+    display: inline-block;
+    
+}
+
+
+#contact a {
+    float: inherit;
+    display: inline-block;
+    font-size: 20px;
+    color: red;
+}
+
+#email {
+    float: inherit;
+    display: inline-block;
+}
+
+
