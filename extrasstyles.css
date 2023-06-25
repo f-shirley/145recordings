@@ -1,28 +1,28 @@
-#white {
+.white {
     background-color: white;
     text-align: center;
     height: 100vh;
     padding-top: 50px;
 }
 
-#white h1 a {
+.white h1 a {
     color: black;
     font-size: 50px;
     
 }
 
-#white h1 a:hover{
+.white h1 a:hover{
     opacity: 0.4;
 }
 
-#video {
+.video {
     display: inline-block;
     float: right;
     padding-right: 300px;
     padding-top: 50px;
 }
 
-#white h1 {
+.white h1 {
     font-size: 50px;
 }
 
@@ -41,18 +41,22 @@
 
 
 
-@media screen and (orientation:portrait) {
-    #white h1 a {
+@media (max-width: 1439px) {
+    .white h1 a {
         font-size: 35px;
     }
     
-    #white h1 {
+    .white h1 {
         font-size: 35px;
     }
 
-    #video {
+    .video {
         float: none;
         padding-right: 0;
+        width: 350px;
+    }
+    .video iframe{
+        width: 100%;
     }
 
 }
