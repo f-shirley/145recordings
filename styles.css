@@ -38,7 +38,6 @@ body {
 
 #headertab{
     text-align: center;
-    display: inline-block;
     width: 100%;
     font-size: 30px;
     padding-top: 5px;
@@ -46,15 +45,12 @@ body {
 }
 
 #headertab a {
-    width: 150px;
     display: inline-block;
     color: white;
-    padding-left: 25px;
-    padding-right: 25px;
     text-decoration: none;
-    margin-left: auto;
-    margin-right: auto;
-    
+}
+#headertab a:not(:first-child){
+    padding-left: 50px;
 }
 
 #headertab a:hover{
@@ -118,8 +114,13 @@ footer div{
         font-size: 30px;
     }
     
+    #headertab a:not(:first-child){
+        padding-left: 0;
+        padding-top: 15px;
+    }
+
     #headertab a {
-        padding: 15px 0px 0px 0px;
+        display: block;
     }
 }
 
